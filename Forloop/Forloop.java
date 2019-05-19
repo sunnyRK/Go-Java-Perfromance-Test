@@ -4,7 +4,7 @@ import java.util.*;
 
 class Forloop {
     public static void main(String []args){
-        int[] allInputs = new int[]{10000, 50000, 100000, 500000, 1000000, 1500000}; 
+        int[] allInputs = new int[]{10000, 50000, 100000, 500000, 1000000}; 
         for(int i=0;i<allInputs.length;i++){
             BigInteger number = BigInteger.valueOf(allInputs[i]);
             BigInteger result = BigInteger.valueOf(1);
